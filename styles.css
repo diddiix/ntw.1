@@ -1,13 +1,15 @@
 body {
+    background-image: url('https://i.pinimg.com/originals/2e/b3/41/2eb3410d12a4e534b440403e029e9e33.jpg'); /* Reemplaza esto con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; /* Asegura que el cuerpo tenga al menos la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+    display: flex; /* Permite usar flexbox para centrar contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     text-align: center;
 }
 
